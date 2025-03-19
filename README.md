@@ -2,7 +2,8 @@
 
 This Google App Engine application can be used to forward traffic fronted from the Google App Engine domain to a C2 server running on a GCP compute instance VM.
 
-This is a POC application only and has a few potential indicators that could be use to identify 
+This is a POC application only and has a few potential indicators that could be use to identify running instances, so read the code in main.py and modify as required before attempting to use.
+
 
 # Basic configuration
 
