@@ -1,0 +1,10 @@
+# TODO: MODIFY ME BEFORE USE!
+runtime: python312
+
+env_variables:
+  DESTINATION: "<C2_INTERNAL_IP>"
+
+
+vpc_access_connector:
+  name: projects/<PROJECT_ID>/locations/<REGION>/connectors/<CONNECTOR_NAME>
+  egress_setting: private-ranges-only
